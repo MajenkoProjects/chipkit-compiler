@@ -41,7 +41,7 @@ clone it separately from [here](https://github.com/MajenkoProjects/pic32-genfile
 From within that directory run:
 
 ```
-$PATH=~/x-tools/mipsel-pic32-elf/bin:${PATH} bin/pic32-genfiles
+PATH=~/x-tools/mipsel-pic32-elf/bin:${PATH} bin/pic32-genfiles
 ```
 
 This will build the support files and libraries for all supported PIC32 chips.
