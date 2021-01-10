@@ -1,0 +1,3 @@
+[submodule "pic32-genfiles"]
+	path = pic32-genfiles
+	url = https://github.com/MajenkoProjects/pic32-genfiles
