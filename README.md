@@ -55,6 +55,14 @@ And on OS X only (see [this blog post](https://majenko.co.uk/blog/how-i-cross-co
 * `arm64e-apple-darwin20`
 * `x86_64-apple-darwin20`
 
+So as an example you would run:
+
+```
+./ct-ng build-arm-linux-gnueabihf,mipsel-pic32-elf
+```
+
+If compiling for Windows (`x86_64-w64-mingw32`) you will get errors concerning `_bfd_error_handler`. These are safe to ignore, they
+are actually only a warning, not an error. 
 
 This will build the base toolchain in `~/x-tools/` either as `mipsel-pic32-elf` or as `HOST-<triplet>/mipsel-pic32-elf`.
 
