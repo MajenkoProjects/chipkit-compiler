@@ -7,8 +7,10 @@ building the chipKIT compiler.
 Prerequisites
 -------------
 
-The main pre-requisite is crosstool-ng.  The github version 
-[from here](https://github.com/crosstool-ng/crosstool-ng) is preferred.
+The main pre-requisite is crosstool-ng.  We have a specially patched version
+of crosstool-ng with support for the different variants of PIC32 chips. You must
+download it [from here](https://github.com/MajenkoProjects/crosstool-ng-pic32) and
+compile it from source.
 
 You will also need a working PHP cli installation.
 
