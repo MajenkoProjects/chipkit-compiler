@@ -1,3 +1,6 @@
 [submodule "pic32-genfiles"]
 	path = pic32-genfiles
 	url = https://github.com/MajenkoProjects/pic32-genfiles
+[submodule "crosstool-ng-pic32"]
+	path = crosstool-ng-pic32
+	url = git@github.com:MajenkoProjects/crosstool-ng-pic32
