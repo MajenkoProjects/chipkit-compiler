@@ -66,6 +66,8 @@ are actually only a warning, not an error.
 
 This will build the base toolchain in `~/x-tools/` either as `mipsel-pic32-elf` or as `HOST-<triplet>/mipsel-pic32-elf`.
 
+On an i7-3770 system with SSD and 16BG RAM it takes about 45 minutes to compile the toolchain, depending on target OS selection.
+
 Adding pic32 support files
 --------------------------
 
