@@ -23,7 +23,7 @@ Alternatively you can get the two required repositories manually:
 Step two: compile crosstool-ng:
 
 ```
-cd crosstool-ng-pic32
+cd chipkit-compiler/crosstool-ng-pic32
 ./bootstrap
 ./configure
 make
